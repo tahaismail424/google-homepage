@@ -1,0 +1,122 @@
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 30%;
+    height: 30%;
+}
+
+#ssubmit, #lucky {
+    background-color: #E9E9E9;
+    color: #707070;
+    border-style: none;
+    border-radius: 4px;
+    width: 120px;
+    height: 40px;
+
+}
+
+#ssubmit:hover, #lucky:hover {
+    border-style: solid;
+    border-color: #E0E0E0;
+    border-width: thin;
+    box-shadow: 0px 3px 10px 3px #D8D8D8;
+
+}
+
+#search {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 60%;
+    height: 40px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E0E0E0;
+}
+
+#search:hover {
+    box-shadow: 0px 3px 10px 3px #D8D8D8;
+
+}
+
+.flex-container-s {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto) 1fr repeat(4, auto); 
+}
+#nav li {
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Calibri, sans-serif;
+    font-size: 12px;
+    margin: 5px;
+}
+li a:hover {
+    text-decoration: underline;
+}
+
+#foot {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto) .9fr repeat(3, auto);
+    align-content: center;
+    background-color: #E9E9E9;
+    border-top: 2px solid #e0e0e0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%
+}
+
+#foot li {
+    color: #707070;
+    font-family: Calibri, sans-serif;
+    font-size: 14px;
+    margin: 10px;
+
+    
+}
+
+
+#apps {
+    height: 16px;
+    width: 16px;
+    display: block;
+    margin-left: 10%
+
+}
+
+#profile {
+    height: 35px;
+    width: 35px;
+    display: block;
+    margin-left: 10%;
+    margin-top: -15%;
+}
+
+#apps:hover {
+    filter: brightness(80%);
+}
+
+#profile:hover {
+    box-shadow:0px 3px 10px 3px #D8D8D8;
+}
